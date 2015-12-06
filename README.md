@@ -1,14 +1,9 @@
-# binsh
-<strong>Shell bin output for telegram-bot</strong>
+#binsh
+**Shell output for [telegram-bot](http://github.com/yagop/telegram-bot).**
 
-<strong>Warning:</strong> As this plugin has direct access to the 
-system, even though 
-there is no way to achieve root access, it may cause 
-harm, so be extra careful.
+**Warning:** This plugin interfaces with your operating system. Even without root privileges, a bad command can be harmful.
 
-# Usage
-Enable the plugin with `!plugin enable bin`
+##Usage
+Enable the plugin with `!plugin enable bin`.
 
-Feed telegram `!bin uptime` command as an example
-
-Any binary file in the `/bin/` directory can be executed
+Send `!bin uptime` for an example.
